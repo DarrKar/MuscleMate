@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+	<title>Loading Page</title>
+    <meta charset="utf-8">
+	<style>
+		
+        body {
+			background-image: url(https://generationiron.com/wp-content/uploads/2020/12/Do-You-Need-to-Train-to-Muscle-Failure-for-Hypertrophy-1-696x369.jpg);
+			/* background-image: url('muscle2.png'); */
+			background-size: cover;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-position: center;
+        }
+
+		.homePage {
+			background-color: rgba(242,242,242,.5);
+			padding:2rem;
+			position: absolute;
+			height: 40%;
+			width: 40%;
+			top: 25%;
+			left:29%;
+			text-align: center;
+			overflow-x: scroll;
+		}
+
+		/* Style the navigation bar */
+		nav {
+			background-color: #333;
+			overflow: hidden;
+		}
+
+		/* Style the links inside the navigation bar */
+		nav a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change the color of links on hover */
+		nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+
+		/* Style the welcome message */
+		.welcome-message {
+			font-size: 38px;
+		}
+
+		/* Style the button */
+		.seeWorkout {
+			background-color: #333;
+			color: white;
+			border: none;
+			padding: 12px 24px;
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 4px;
+			text-decoration: none;
+			margin-top: 24px;
+			
+		}
+
+		/* Change the button color on hover */
+		.seeWorkout:hover {
+			background-color: #ddd;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+    
+        <!-- Create the navigation bar -->
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/generate">Generate Workout</a>
+        </nav>
+	<div class="homePage">
+        <!-- Create the welcome section -->
+        <div class="welcome-section">
+            <div class="welcome-message">
+                <h1>Workout has been generated</h1>
+                <p>Thank you for using Muscle Mate! Press below to see your own generated workout!</p>
+            </div>
+            <a href="/generatedWorkout" class="seeWorkout">See Workout</a>
+                
+        </div>
+    </div>
+</body>
+</html>
